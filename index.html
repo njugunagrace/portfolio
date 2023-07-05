@@ -9,12 +9,12 @@
 </head>
 <body>
     <div id="nav">
-        <ul>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="/about.html">About Me</a></li>
-            <li><a href="#">Home</a></li>
-            
+        <ul id="navBar">
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Home</a></li>           
           </ul>
     </div>
 
@@ -31,7 +31,99 @@
      </div>
     </div>
     
-    
+
+
+
+
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a passionate software developer with expertise in various programming languages and frameworks. My goal is to create efficient and user-friendly solutions to real-world problems.</p>
+      <a href="#contact" class="button">Contact Me</a>
+    </div>
+  </section>
+
+
+
+  <section id="skills">
+<div class="skill">
+  <h2>Skills</h2>
+  <ul>
+    <li>Fronted Development using HTML/CSS and JavaScript</li>
+    <li>Backend Development using Python</li>
+    <li>Mobile Development using Kotlin</li>
+    <li>Research skills</li>
+    <li>Product management skills</li>
+    <li>UI/UX design skills</li>
+
+
+  </ul>
+</div>
+  </section>
+
+  <section id="projects">
+
+    <h2>Projects</h2>
+    <div class="proj">
+    <div class="single-box">
+        <div class="box-content">
+          <div class="sides side-1" style="background-image: url(/Images/web.jpeg);"></div>
+          <div class="sides side-2">
+            <div class="content">
+              <p></p>
+               
+              </p> <br>
+           
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single-box">
+        <div class="box-content">
+          <div class="sides side-1" style="background-image: url(/Images/web3.jpeg);"></div>
+          <div class="sides side-2">
+            <div class="content">
+              <p></p>
+                          
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="single-box">
+        <div class="box-content">
+          <div class="sides side-1" style="background-image: url(/Images/web2.jpeg);"></div>
+          <div class="sides side-2">
+            <div class="content">
+              <p>
+               
+              </p> <br>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" method="POST">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Njuguna Grace</p>
+    </div>
+  </footer>
        
     
     
